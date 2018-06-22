@@ -576,7 +576,21 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-title-3 {
-    font-size: 1.7rem;
+    border-bottom: 0px solid #eee;
+    color: #ffffff;
+    font-size: 3.1rem;
+    font-weight: bold;
+    background-color: #80ab4c;
+    width: 300px;
+    padding: 3px 0px 3px 25px;
+    text-align: left;
+    -moz-transform: skewX(-10deg) skewY(0deg);
+    -webkit-transform: skewX(-10deg) skewY(0deg);
+    -o-transform: skewX(-10deg) skewY(0deg);
+    -ms-transform: skewX(-10deg) skewY(0deg);
+    transform: skewX(-10deg) skewY(0deg);
+    border-radius: 10px;
+    margin-bottom: -15px;
 }
 
 .bck-enfasis {
@@ -794,6 +808,7 @@ body:not(.edit) .slider-indicators {
 .bck-box.bck-box-1 .bck-content {
     padding-left: 80px;
     background-color: #d1e0ba;
+    border-radius: 2px;
 }
 
 .bck-box.bck-box-1:before {
@@ -822,6 +837,7 @@ body:not(.edit) .slider-indicators {
 	right: -14px;
 	z-index: -5;
 	width: 100%;
+	border-radius: 4px;
 	height: 100%;
 	background: #d1e0ba;
     border-right: 14px solid #d1e0ba;
@@ -842,6 +858,10 @@ body:not(.edit) .slider-indicators {
 .bck-box.bck-box-2 .bck-content {
 	border: 0;
 	padding: 10px 25px;
+	background-color: #e6db99;
+	font-size: 2.8rem;
+	font-family: 'Sacramento', cursive;
+	margin-bottom: 10px;
 }
 
 .bck-box.bck-box-2 .bck-title {
