@@ -227,7 +227,7 @@ body.is_app #actividad .class_slide {
 }
 
 #actividad .class_slide:last-of-type {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 #actividad .slide-concatenate .class_slide {
@@ -950,7 +950,6 @@ body:not(.edit) .slider-indicators {
 	background-color: #d9c73d;
 	font-size: 2.8rem;
 	font-family: 'Sacramento', cursive;
-	margin-bottom: 10px;
 	border-radius: 5px;
 }
 
