@@ -602,13 +602,13 @@ body:not(.edit) .slider-indicators {
 /*3*/
 
 .bck-title-3 {
-    border-bottom: 0px solid #eee;
+   border-bottom: 0px solid #eee;
     color: #ffffff;
     font-size: 3.1rem;
     font-weight: bold;
     background-color: #80ab4c;
-    max-width: 460px;
-    padding: 7px 3px 7px 25px;
+    max-width: 450px;
+    padding: 4px 1px 4px 7px;
     text-align: left;
     -moz-transform: skewX(-10deg) skewY(0deg);
     -webkit-transform: skewX(-10deg) skewY(0deg);
@@ -616,7 +616,7 @@ body:not(.edit) .slider-indicators {
     -ms-transform: skewX(-10deg) skewY(0deg);
     transform: skewX(-10deg) skewY(0deg);
     border-radius: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 2px;
     margin-left: 3px;
     
 }
