@@ -590,7 +590,8 @@ body:not(.edit) .slider-indicators {
     -ms-transform: skewX(-10deg) skewY(0deg);
     transform: skewX(-10deg) skewY(0deg);
     border-radius: 10px;
-    margin-bottom: -15px;
+    margin-bottom: 0px;
+    margin-left: 3px;;
     
 }
 
