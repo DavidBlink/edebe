@@ -917,6 +917,7 @@ body:not(.edit) .slider-indicators {
 	font-size: 2.8rem;
 	font-family: 'Sacramento', cursive;
 	margin-bottom: 10px;
+	border-radius: 5px;
 }
 
 .bck-box.bck-box-3 .bck-title {
