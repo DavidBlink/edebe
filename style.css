@@ -559,7 +559,6 @@ body:not(.edit) .slider-indicators {
 /*titulos*/
 
 .bck-title {
-	border-bottom: 4px solid #eee;
     color: #9acb1e;
     font-size: 2.1rem;
     font-weight: bold;
