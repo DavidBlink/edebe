@@ -621,6 +621,19 @@ body:not(.edit) .slider-indicators {
     
 }
 
+.bck-title-3:before {
+    content: " ";
+    margin-right: 11px;
+    background: url(https://www.blinklearning.com/useruploads/r/a/93533940/activity_other_imported/icono-taller2-edebe.png);
+    padding: 25px;
+    position: relative;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10px;
+    top: 5px;
+}
+
 /*4*/
 
 .bck-title-4 {
