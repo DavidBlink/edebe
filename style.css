@@ -897,6 +897,59 @@ body:not(.edit) .slider-indicators {
 	content: '';
 }
 
+
+/*CAJA3*/
+
+.bck-box.bck-box-3 {
+	background: #F3F4E2;
+	-webkit-border-radius: 7px;
+	   -moz-border-radius: 7px;
+	        border-radius: 7px;
+	text-align: left;
+}
+
+.bck-box.bck-box-3 .bck-content {
+	border: 0;
+	padding: 10px 25px;
+	background-color: #333;
+	font-size: 2.8rem;
+	font-family: 'Sacramento', cursive;
+	margin-bottom: 10px;
+}
+
+.bck-box.bck-box-3 .bck-title {
+	padding: 10px 25px;
+	border: 0;
+	color: #FFF;
+	font-size: 2.3rem;
+	font-weight: bold;
+}
+
+.bck-box.bck-box-3 .bck-title p {
+	width: auto;
+}
+
+.bck-box.bck-box-3 .bck-title:before {
+	display: none;
+}
+
+#actividad .content .bck-box.bck-box-3 .header.bck-title .title {
+	display: inline-block;
+}
+
+#actividad .content .bck-box.bck-box-3 .header.bck-title .title h3 {
+	margin: 0;
+	color: #9BCB20;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+#actividad .content .bck-box.bck-box-3 .header.bck-title .title h3:before {
+	content: '';
+}
+
+
+
 /**/
 
 /*ENLACES*/
