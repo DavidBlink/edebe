@@ -587,12 +587,16 @@ body:not(.edit) .slider-indicators {
 }
 
 .bck-title-2:before {
-	margin-right: 10px;
-	background: url(https://www.blinklearning.com/useruploads/r/a/93533320/activity_other_imported/icono-taller-edebe.png);
-	padding: 20px;
-	position: relative;
-	width: 20px;
-	height: 20px;
+    content: " ";
+    margin-right: 11px;
+    background: url(https://www.blinklearning.com/useruploads/r/a/93533320/activity_other_imported/icono-taller-edebe.png);
+    padding: 25px;
+    position: relative;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 10px;
+    top: 5px;
 }
 
 /*3*/
