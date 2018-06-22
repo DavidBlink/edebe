@@ -582,13 +582,14 @@ body:not(.edit) .slider-indicators {
 /*2*/
 
 .bck-title-2 {
-    color: #6f6a66;
+    color: #cea36c;
+    font-size: 2.8rem;
+    font-weight: bold;
 }
 
 .bck-title-2:before {
-	content: '\f101';
 	margin-right: 10px;
-	font-family: 'FontAwesome';
+	background: url(https://www.blinklearning.com/useruploads/r/a/93533320/activity_other_imported/icono-taller-edebe.png);
 }
 
 /*3*/
