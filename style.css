@@ -42,6 +42,16 @@ body {
 	background-color: #fff;
 }
 
+/*tipografia*/
+
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+p {
+    font-family: 'Sacramento', cursive;
+}
+
+
+
 /*ENLACE WEB*/
 
 #actividad a {
@@ -534,15 +544,21 @@ body:not(.edit) .slider-indicators {
 	background: #FDFDFD;
 }
 
+/*icono audio*/
+
 #actividad .player.audio {
-	background-image: url(audio_icon.png);
-	-webkit-background-size: 100% 100%;
-	   -moz-background-size: 100%;
-	     -o-background-size: 100%;
-	        background-size: 100%;
-	background-position: 0;
-	background-color: transparent;
+    background-image: url(/useruploads/r/a/93434230/activity_other_imported/icono-audio-edebe.png);
+    border-radius: 0px;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-position: 0;
+    background-color: transparent;
 }
+
+
+/*titulos*/
 
 .bck-title {
 	border-bottom: 4px solid #eee;
