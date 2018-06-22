@@ -128,7 +128,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #book-index #indice .unit-content a:focus,
 #indice .units ul li a:focus,
 #indice .actividades a:focus {
-    color: #E7604D;,
+    color: #E7604D;
 }
 
 #book-index #indice .unit-content .actividades .item {
