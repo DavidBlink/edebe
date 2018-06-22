@@ -607,7 +607,7 @@ body:not(.edit) .slider-indicators {
     font-size: 3.1rem;
     font-weight: bold;
     background-color: #80ab4c;
-    max-width: 450px;
+    max-width: 480px;
     padding: 4px 1px 4px 7px;
     text-align: left;
     border-radius: 10px;
