@@ -282,6 +282,13 @@ body.is_app #actividad .class_slide {
 			transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
 }
 
+.slide_main input, .slide_main .img-input-container {
+	height: 1.8em;
+    padding: 0 6px;
+    width: 100%;
+}
+
+
 .slide_main input:focus,
 .slide_main .form-control:focus {
 	border-color: #9664AB;
