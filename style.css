@@ -1620,7 +1620,7 @@ table td.bck-td-4 {
 /**DROPDOWNS**/
 
 .bck-dropdown .bck-dropdown-icon, .bck-dropdown-2 .bck-dropdown-icon {
-	color: white;
+	color: #262e2a;
 }
 
 .bck-dropdown .bck-dropdown-icon > .fa, .bck-dropdown-2 .bck-dropdown-icon > .fa {
@@ -1628,7 +1628,7 @@ table td.bck-td-4 {
 }
 
 .bck-dropdown .bck-dropdown-titulo, .bck-dropdown-2 .bck-dropdown-titulo{
-	color: white;
+	color: #262e2a;
 }
 
 /*Dropdown 1*/
@@ -1670,7 +1670,7 @@ table td.bck-td-4 {
 	background-color: #fff;
 	border: 1px solid #DDDDDD;
     padding-left: 17px;
-	max-height: 800%;
+	height: 100%;
 }
 
 /**/
@@ -1712,7 +1712,7 @@ table td.bck-td-4 {
 }
 
 .bck-dropdown-2 .bck-dropdown-content {
-	max-height: 820px;
+	height: 100%;
 	padding: 10px;
 	background-color: #fff;
 	border: 1px solid #dcdada;
