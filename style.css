@@ -203,7 +203,18 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
 }
 
 
-/**/
+/*TOC*/
+
+#indice .units ul li.active:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+	color: #fff;
+    background: #d0251b;
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
+	color: #fff;
+    background: #d0251b;
+}
+
 
 /*FOOTER*/
 
