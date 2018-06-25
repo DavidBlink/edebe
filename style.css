@@ -145,7 +145,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover a
 body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 #book-index #indice .unit-content .actividades .item.active,
 #book-index #indice .unit-content .actividades .item.current {
-    background: #E35E47;
+    background: #d0251b;
 }
 
 #indice .unit-content .actividades .item.nivel_6 .title,
@@ -188,6 +188,20 @@ input, button, select, textarea {
 	font-size: 2.0rem;
 	font-weight: bold;
 }
+
+
+/*indice - navbar*/
+
+body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #book-index #indice .units ul li.active a {
+    color: #fff;
+    background: #d0251b;
+}
+
+
+#book-index .col-main {
+	background: #aaa;
+}
+
 
 /**/
 
