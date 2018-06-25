@@ -634,18 +634,23 @@ body:not(.edit) .slider-indicators {
 /*4*/
 
 .bck-title-4 {
-    color: #6f6a66;
+    color: #698ccf;
+    font-size: 2.8rem;
+    font-weight: bold;
 }
 
 .bck-title-4:before {
-	content: '\f101';
-	margin-right: 10px;
-	font-family: 'FontAwesome';
-}
-
-.bck-enfasis {
-    color: #e76048;
-    font-weight: bold;
+    content: " ";
+    margin-left: -14px;
+    margin-right: 10px;
+    background: url(https://www.blinklearning.com/useruploads/r/a/93554290/activity_other_imported/icono-taller-lapiz-edebe.png);
+    padding: 25px;
+    position: relative;
+    width: 11px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 11px;
+    top: 18px;
 }
 
 /*LISTAS DESORDENADAS*/
@@ -807,6 +812,45 @@ body:not(.edit) .slider-indicators {
     font-weight: bold;
     text-align: right;
 }
+
+/*4*/
+
+#actividad .content .texto_curso .bck-ol-4 li,
+#actividad .popover-content .bck-ol-4 li,
+#actividad .content .workspace ul li .bck-ol-4 li {
+	content: counter(bck-li-counter);
+	position: absolute;
+	left: -25px;
+	width: 20px;
+	text-align: right;
+	color: #9ACB1E;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#actividad .content .texto_curso .bck-ol-4 li:before,
+#actividad .popover-content .bck-ol-4 li:before,
+#actividad .content .workspace ul li .bck-ol-4 li:before {
+    top: 0px;
+    content: counter(bck-li-counter);
+    position: absolute;
+    left: -35px;
+    width: 30px;
+    height: 28px;
+    line-height: 24px;
+    text-align: center;
+    padding: 3px;
+    color: #ffffff;
+    background-color: #9b4135;
+    border-radius: 3px;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+
+
+
 /**/
 
 /*BOXES*/
