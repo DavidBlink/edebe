@@ -1658,15 +1658,15 @@ table td.bck-td-4 {
 /**DROPDOWNS**/
 
 .bck-dropdown .bck-dropdown-icon, .bck-dropdown-2 .bck-dropdown-icon {
-	color: #262e2a;
+	color: #dfc536;
 }
 
 .bck-dropdown .bck-dropdown-icon > .fa, .bck-dropdown-2 .bck-dropdown-icon > .fa {
-	border: 3px solid black;
+	border: 3px solid #dfc536;
 }
 
 .bck-dropdown .bck-dropdown-titulo, .bck-dropdown-2 .bck-dropdown-titulo{
-	color: #262e2a;
+	color: #dfc536;
 }
 
 .bck-dropdown-content {
