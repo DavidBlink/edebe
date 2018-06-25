@@ -219,7 +219,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover, #bo
 
 #indice .units ul li.active:not(.disabled), #indice .units ul li:focus:not(.disabled) {
 	color: #fff;
-    background: #d0251b;
+    background: #c02219;
 }
 
 .btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
