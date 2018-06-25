@@ -1631,6 +1631,15 @@ table td.bck-td-4 {
 	color: #262e2a;
 }
 
+.bck-dropdown-content {
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+
+
 /*Dropdown 1*/
 
 .bck-dropdown.bck-dropdown-1 {
