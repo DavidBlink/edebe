@@ -853,6 +853,7 @@ body:not(.edit) .slider-indicators {
     border-radius: 3px;
     font-size: 2rem;
     font-family: sans-serif;
+
 }
 
 
@@ -875,6 +876,40 @@ body:not(.edit) .slider-indicators {
     border-radius: 3px;
     font-size: 2rem;
     font-family: sans-serif;
+    -moz-transform: rotate(1deg) skewX(5deg) skewY(0deg);
+-webkit-transform: rotate(1deg) skewX(5deg) skewY(0deg);
+-o-transform: rotate(1deg) skewX(5deg) skewY(0deg);
+-ms-transform: rotate(1deg) skewX(5deg) skewY(0deg);
+transform: rotate(1deg) skewX(5deg) skewY(0deg);
+}
+
+
+/*6*/
+
+/*5 lista sin número, a modo viñeta*/
+
+#actividad .content .texto_curso .bck-ol-6 li:before,
+#actividad .popover-content .bck-ol-6 li:before,
+#actividad .content .workspace ul li .bck-ol-6 li:before {
+    top: 0px;
+    content: counter(bck-li-counter);
+    position: absolute;
+    left: -35px;
+    width: 30px;
+    height: 28px;
+    line-height: 24px;
+    text-align: center;
+    padding: 3px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 2rem;
+    font-family: sans-serif;
+    -moz-transform: rotate(1deg) skewX(5deg) skewY(0deg);
+-webkit-transform: rotate(1deg) skewX(5deg) skewY(0deg);
+-o-transform: rotate(1deg) skewX(5deg) skewY(0deg);
+-ms-transform: rotate(1deg) skewX(5deg) skewY(0deg);
+transform: rotate(1deg) skewX(5deg) skewY(0deg);
 }
 
 
