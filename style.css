@@ -97,7 +97,7 @@ body {
 #indice .units ul li.hover:not(.disabled),
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:hover:not(.disabled) {
-    background: #EC968C;
+    background: #b32c24;
 }
 
 #book-index #indice .unit-content a,
