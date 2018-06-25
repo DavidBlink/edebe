@@ -261,6 +261,7 @@ body.is_app #actividad .class_slide {
 
 #actividad .class_slide:last-of-type {
     padding-bottom: 50px;
+    margin-top: -18px;
 }
 
 #actividad .slide-concatenate .class_slide {
@@ -658,10 +659,10 @@ body:not(.edit) .slider-indicators {
     font-size: 3.1rem;
     font-weight: bold;
     background-color: #80ab4c;
-    max-width: 480px;
+    max-width: 500px;
     padding: 4px 1px 4px 7px;
     text-align: left;
-    border-radius: 10px;
+    border-radius: 10px 5px 40px 10px;
     margin-bottom: 10px;
     margin-left: 3px;
     
@@ -1117,7 +1118,7 @@ transform: rotate(1deg) skewX(5deg) skewY(0deg);
 .bck-box.bck-box-3 .bck-content {
     padding-left: 80px;
     background-color: #f3f5dc;
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 5px 40px 10px;
 }
 
 .bck-box.bck-box-3:before {
