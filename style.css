@@ -1124,14 +1124,18 @@ transform: rotate(1deg) skewX(5deg) skewY(0deg);
 }
 
 .bck-box.bck-box-3:after {
-	content: " ";
-    background: url(https://www.blinklearning.com/useruploads/r/a/93570130/activity_other_imported/icono-mision-edebe.png);
-    padding: 35px;
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: contain;
-    left: 0px;
-    z-index: 10;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: -14px;
+	z-index: -5;
+	width: 100%;
+	border-radius: 10px;
+	height: 100%;
+	background: #d1e0ba;
+    border-right: 14px solid #d1e0ba;
+    -webkit-transform: skewX(-10deg);
+    transform-origin: bottom right;
 }
 
 
