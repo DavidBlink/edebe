@@ -856,6 +856,29 @@ body:not(.edit) .slider-indicators {
 }
 
 
+/*5 lista sin número, a modo viñeta*/
+
+#actividad .content .texto_curso .bck-ol-5 li:before,
+#actividad .popover-content .bck-ol-5 li:before,
+#actividad .content .workspace ul li .bck-ol-5 li:before {
+    top: 0px;
+    content: counter(bck-li-counter);
+    position: absolute;
+    left: -35px;
+    width: 30px;
+    height: 28px;
+    line-height: 24px;
+    text-align: center;
+    padding: 3px;
+    color: #698ccf;
+    background-color: #698ccf;
+    border-radius: 3px;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+
+
 
 
 /**/
@@ -966,6 +989,7 @@ body:not(.edit) .slider-indicators {
 	   -moz-border-radius: 7px;
 	        border-radius: 7px;
 	text-align: left;
+	margin-bottom: -20px;
 }
 
 .bck-box.bck-box-2 .bck-content {
